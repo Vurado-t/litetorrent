@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_auxiliary", "_auxiliary", "{4F8D4E48-7893-4F40-AB32-F807205667AA}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.Core", "src\LiteTorrent.Core\LiteTorrent.Core.csproj", "{232F4099-D680-4CF7-8372-4418D45731D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.Domain", "src\LiteTorrent.Domain\LiteTorrent.Domain.csproj", "{5E04CD32-BB75-456F-8252-CC1F19BEC6C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.Application", "src\LiteTorrent.Application\LiteTorrent.Application.csproj", "{BB79718A-BA72-4FD6-99E0-8345C4C661DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.Adapters.API", "src\LiteTorrent.Adapters.API\LiteTorrent.Adapters.API.csproj", "{EA8CD5DA-61E8-4DDF-A48A-A4296CBBD328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.Adapters.Data", "src\LiteTorrent.Adapters.Data\LiteTorrent.Adapters.Data.csproj", "{815F3BAE-6AA2-4C41-9700-C5877DE650FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.Adapters.Exchange", "src\LiteTorrent.Adapters.Exchange\LiteTorrent.Adapters.Exchange.csproj", "{CF259A6C-6E19-4D42-B87C-B29EAA6F1F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteTorrent.UI.CLI", "src\LiteTorrent.UI.CLI\LiteTorrent.UI.CLI.csproj", "{3100F01A-BFB9-4691-940A-0085DA334639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232F4099-D680-4CF7-8372-4418D45731D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232F4099-D680-4CF7-8372-4418D45731D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232F4099-D680-4CF7-8372-4418D45731D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232F4099-D680-4CF7-8372-4418D45731D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E04CD32-BB75-456F-8252-CC1F19BEC6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E04CD32-BB75-456F-8252-CC1F19BEC6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E04CD32-BB75-456F-8252-CC1F19BEC6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E04CD32-BB75-456F-8252-CC1F19BEC6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB79718A-BA72-4FD6-99E0-8345C4C661DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB79718A-BA72-4FD6-99E0-8345C4C661DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB79718A-BA72-4FD6-99E0-8345C4C661DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB79718A-BA72-4FD6-99E0-8345C4C661DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8CD5DA-61E8-4DDF-A48A-A4296CBBD328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8CD5DA-61E8-4DDF-A48A-A4296CBBD328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8CD5DA-61E8-4DDF-A48A-A4296CBBD328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8CD5DA-61E8-4DDF-A48A-A4296CBBD328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815F3BAE-6AA2-4C41-9700-C5877DE650FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815F3BAE-6AA2-4C41-9700-C5877DE650FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815F3BAE-6AA2-4C41-9700-C5877DE650FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815F3BAE-6AA2-4C41-9700-C5877DE650FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF259A6C-6E19-4D42-B87C-B29EAA6F1F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF259A6C-6E19-4D42-B87C-B29EAA6F1F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF259A6C-6E19-4D42-B87C-B29EAA6F1F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF259A6C-6E19-4D42-B87C-B29EAA6F1F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3100F01A-BFB9-4691-940A-0085DA334639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3100F01A-BFB9-4691-940A-0085DA334639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3100F01A-BFB9-4691-940A-0085DA334639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3100F01A-BFB9-4691-940A-0085DA334639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
